@@ -1,6 +1,5 @@
 // components/BalanceCard.tsx
 import React from 'react';
-import {ChevronRightIcon} from '@heroicons/react/24/solid'
 
 const BalanceCard: React.FC = () => {
   return (
@@ -11,7 +10,8 @@ const BalanceCard: React.FC = () => {
           <span className="block text-2xl">₦ 3,407.92</span>
         </div>
         <div>
-        <button className="rounded-full px-4 py-2 font-semibold text-white ring-white ring-1  active:ring-1 active:ring-offset-2 active:ring-primary hover:ring-white hover:bg-ton_black/50">+ Add money</button>
+          <span>Reward points  </span>
+          <span className="block">1000000.0</span>
         </div>
       </div>
     </div>
